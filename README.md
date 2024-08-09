@@ -19,8 +19,7 @@ This **Quiz App** is an interactive web application designed to challenge users 
 ## How to Run the App
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.
-com/your-username/quiz-app.git
+ https://github.com/mohamedshahin-10/Quiz-App.git
    ```
 2. Open the `index.html` file in your web browser to start the quiz.
 ## Future Enhancements
