@@ -6,11 +6,10 @@ This **Quiz App** is an interactive web application designed to challenge users 
 
 **Adjustable Difficulty Levels**: Users can choose from multiple difficulty levels to match their knowledge and expertise.
 
-**Responsive Design**: The app is built with a responsive layout, making it accessible on various devices including desktops, tablets, and smartphones.
-
 **Intuitive UI**: Developed with HTML, CSS, Bootstrap, and jQuery to ensure a smooth and user-friendly interface.
 
 **Real-Time Feedback**: Users receive instant feedback on their answers, with a final score displayed at the end of the quiz.
+
 ## Technologies Used
 - **HTML**: For structuring the content of the app.
 - **CSS**: For styling the app and ensuring a consistent look and feel.
