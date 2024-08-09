@@ -3,9 +3,13 @@
 This **Quiz App** is an interactive web application designed to challenge users with questions from various domains of life. The app provides a dynamic and engaging quiz experience, allowing users to test their knowledge across different topics and adjust the difficulty level according to their preference.
 ## Features
 **Multi-Domain Questions**: The quiz covers a wide range of topics, ensuring a comprehensive testing experience.
+
 **Adjustable Difficulty Levels**: Users can choose from multiple difficulty levels to match their knowledge and expertise.
+
 **Responsive Design**: The app is built with a responsive layout, making it accessible on various devices including desktops, tablets, and smartphones.
+
 **Intuitive UI**: Developed with HTML, CSS, Bootstrap, and jQuery to ensure a smooth and user-friendly interface.
+
 **Real-Time Feedback**: Users receive instant feedback on their answers, with a final score displayed at the end of the quiz.
 ## Technologies Used
 - **HTML**: For structuring the content of the app.
