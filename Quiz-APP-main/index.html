@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./choose.png" type="image/x-icon">
+    <title>Quiz APP</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animatedButton.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <section id="homeSection" >
+        <div class="py-1">
+            <h1 class="text-center animated-button animate__animated animate__bounceInLeft">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Quiz App
+            </h1>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div id="createQuiz" class="alert alert-info animate__animated animate__bounceInUp animate__delay-1s">
+                        <!-- category -->
+                        <div class="form-floating my-2">
+                            <select class="form-select" id="Category">
+                                <option value="21">Sports</option>
+                                <option value="23">History</option>
+                                <option value="25">Art</option>
+                                <option value="27">Animal</option>
+                                <option value="28">Vehicles</option>
+                              </select>
+                              <label for="Category">Choose Category</label>
+                        </div>
+                        
+                        <!-- difficulty -->
+                        <div class="form-floating my-2">
+                            <select class="form-select" id="difficulty">
+                                <option value="easy">Easy</option>
+                                <option value="meduim">Meduim</option>
+                                <option value="hard">Hard</option>
+                              </select>
+                              <label for="difficulty">Select Difficulity</label>
+                        </div>
+                        <!-- num of questions -->
+                        <div class="form-floating my-2">
+                            <input class="form-control my-2"  id="numQuestions" type="number">
+                            <label for="">Number Of Questions:</label>
+                        </div>
+                        <div class="error alert"></div>
+                          <button id="submit" type="submit" class="btn btn-primary mb-3 col-12">Start Quiz</button>
+                    </div>
+                    <div id="startQuiz" class="alert alert-warning animate__animated animate__bounceInUp animate__delay-1s"></div>
+                </div>
+                <div class="col-md-6">
+                    <div id="bars" class="row gy-2 mt-2">
+
+                    </div>
+                    <div>
+                        <img src="./images/side.png" class="w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+   
+
+
+
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="./js/main.js" ></script>
+</body>
+</html>

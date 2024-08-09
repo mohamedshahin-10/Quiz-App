@@ -1,0 +1,25 @@
+:root{
+    --main-color:#BC343E;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--main-color);
+}
+.form-select:focus{
+    box-shadow: none;
+}
+#startQuiz{
+    display:none;
+}
+#startQuiz li{
+    cursor: pointer;
+    padding:5px ;
+    margin-inline: 5px;
+}
+#startQuiz li:hover{
+    background-color: burlywood;
+}
+.bar{
+    height: 10px;
+
+}
+
