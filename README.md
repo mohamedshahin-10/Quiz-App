@@ -11,11 +11,11 @@ This **Quiz App** is an interactive web application designed to challenge users 
 **Real-Time Feedback**: Users receive instant feedback on their answers, with a final score displayed at the end of the quiz.
 
 ## Technologies Used
-- **HTML**: For structuring the content of the app.
-- **CSS**: For styling the app and ensuring a consistent look and feel.
-- **Bootstrap**: To provide a responsive and mobile-first design.
-- **JavaScript**: For adding interactivity and handling quiz logic.
-- **jQuery**: To simplify JavaScript operations and enhance functionality.
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
+- **jQuery**
 ## How to Run the App
 1. Clone the repository to your local machine:
    ```
